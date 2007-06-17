@@ -3,3 +3,5 @@ inherit ruby
 DESCRIPTION="Ruby libgtop2 bindings"
 HOMEPAGE="http://rubyforge.org/projects/ruby-libgtop2/"
 SRC_URI="mirror://rubyforge/${PN}/${P}.tgz"
+
+DIFF_EXCLUDES+=" Makefile mkmf.log"

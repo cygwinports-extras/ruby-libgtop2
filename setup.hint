@@ -1,0 +1,4 @@
+category: Ruby Gnome
+requires: cygwin glib2 libgtop2 ruby
+sdesc: "Ruby bindings for libgtop2"
+ldesc: "Ruby bindings for libgtop2"

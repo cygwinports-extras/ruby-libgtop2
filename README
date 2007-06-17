@@ -1,0 +1,62 @@
+ruby-libgtop2
+------------------------------------------
+Ruby bindings for LibGTop2.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  glib2-2.12.12-1
+  libgtop2-2.14.7-1
+  ruby-1.8.6-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ruby-1.8.6-1
+
+Canonical website:
+  http://rubyforge.org/projects/ruby-libgtop2/
+
+Canonical download:
+  http://rubyforge.org/frs/?group_id=3244
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-libgtop2-0.1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-libgtop2-0.1.0-X.cygport all
+
+This will create:
+  /usr/src/ruby-libgtop2-0.1.0-X-src.tar.bz2
+  /usr/src/ruby-libgtop2-0.1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/libgtop.so
+  /usr/lib/ruby/site_ruby/1.8/libgtop.rb
+  /usr/lib/ruby/site_ruby/1.8/libgtop/version.rb
+  /usr/share/doc/Cygwin/ruby-libgtop2-0.1.0.README
+  /usr/share/doc/ruby-libgtop2-0.1.0/ChangeLog.txt
+  /usr/share/doc/ruby-libgtop2-0.1.0/HISTORY.txt
+  /usr/share/doc/ruby-libgtop2-0.1.0/INSTALL.txt
+  /usr/share/doc/ruby-libgtop2-0.1.0/README.txt
+  /usr/share/doc/ruby-libgtop2-0.1.0/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
